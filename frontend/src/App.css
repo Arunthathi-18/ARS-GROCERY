@@ -221,7 +221,7 @@ h1 {
   }
 
   .product-image {
-    height: 300px; /* Decrease image size for smaller screens */
+    height: 300px; 
   }
 }
 
