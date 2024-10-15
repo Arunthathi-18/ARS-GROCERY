@@ -1,0 +1,82 @@
+.category-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Space between cards */
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .product-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Width of the card */
+    height: 700px; /* Increased height of the card */
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Ensure space is managed properly */
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 500px; /* Increased height for images */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    color: #4CAF50;
+    margin: 10px 0; /* Add some margin for spacing */
+  }
+  
+  .action-buttons {
+    display: flex;
+    flex-direction: row; /* Make buttons horizontal */
+    gap: 10px; /* Space between buttons */
+    margin-top: auto; /* Push buttons to the bottom */
+  }
+  
+  .add-to-cart-btn,
+  .buy-now-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    flex: 1; /* Make buttons flexible to fill space */
+  }
+  
+  .add-to-cart-btn {
+    background-color: #11005e;
+    color: white;
+  }
+  
+  .buy-now-btn {
+    background-color: #ab0677;
+    color: white;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #1fa3ef;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #d42ef9;
+  }
+  

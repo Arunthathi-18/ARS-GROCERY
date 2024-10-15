@@ -1,0 +1,75 @@
+.prdlst {
+  padding: 20px;
+  background-color: #f7f9fc; /* Light background color */
+}
+
+.ulist {
+  list-style-type: none; /* Remove bullet points */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Increased min width to 400px for each card */
+  gap: 20px; /* Space between items */
+}
+
+.lists {
+  background-color: #ffffff; /* White background for each product */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  overflow: hidden; /* To round corners on images */
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.lists:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.product-image {
+  width: 100%; /* Full width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.product-details {
+  padding: 15px; /* Space around text */
+  text-align: center; /* Center text alignment */
+}
+
+.hww {
+  font-size: 1.2em; /* Slightly larger font size for the product name */
+  margin: 10px 0; /* Space above and below the product name */
+}
+
+.pos {
+  margin: 8px 0; /* Space above and below the description */
+  font-size: 0.9em; /* Slightly smaller font size for description */
+  color: #555; /* Dark gray for description text */
+}
+
+.pss {
+  font-weight: bold; /* Make price bold */
+  font-size: 1.1em; /* Slightly larger font size for the price */
+  color: #e91e63; /* A distinct color for the price */
+}
+
+.addcart, .buynow {
+  background-color: #003b19; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Space inside buttons */
+  cursor: pointer; /* Pointer on hover */
+  font-size: 0.9em; /* Button font size */
+  transition: background-color 0.3s; /* Smooth background change */
+  margin-top: 10px; /* Space above buttons */
+  width: 100%; /* Full width for buttons */
+}
+
+.addcart:hover {
+  background-color: #0355ac; /* Darker shade on hover */
+}
+
+.buynow {
+  background-color: #3c0044; /* Green for buy now */
+}
+
+.buynow:hover {
+  background-color: #d611cc; /* Darker green on hover */
+}
